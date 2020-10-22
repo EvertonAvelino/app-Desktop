@@ -10,3 +10,9 @@ C:\Users\admin\Desktop\TSprogramador\TreinandoC#\TorneSe\Do zero ao appDesktop\D
 C:\Users\admin\Desktop\TSprogramador\TreinandoC#\TorneSe\Do zero ao appDesktop\Database\obj\Debug\Database.csproj.CoreCompileInputs.cache
 C:\Users\admin\Desktop\TSprogramador\TreinandoC#\TorneSe\Do zero ao appDesktop\Database\obj\Debug\Database.dll
 C:\Users\admin\Desktop\TSprogramador\TreinandoC#\TorneSe\Do zero ao appDesktop\Database\obj\Debug\Database.pdb
+C:\Users\admin\Desktop\TSprogramador\TreinandoC#\TorneSe\app-Desktop\Database\bin\Debug\Database.dll
+C:\Users\admin\Desktop\TSprogramador\TreinandoC#\TorneSe\app-Desktop\Database\bin\Debug\Database.pdb
+C:\Users\admin\Desktop\TSprogramador\TreinandoC#\TorneSe\app-Desktop\Database\obj\Debug\Database.csprojAssemblyReference.cache
+C:\Users\admin\Desktop\TSprogramador\TreinandoC#\TorneSe\app-Desktop\Database\obj\Debug\Database.csproj.CoreCompileInputs.cache
+C:\Users\admin\Desktop\TSprogramador\TreinandoC#\TorneSe\app-Desktop\Database\obj\Debug\Database.dll
+C:\Users\admin\Desktop\TSprogramador\TreinandoC#\TorneSe\app-Desktop\Database\obj\Debug\Database.pdb

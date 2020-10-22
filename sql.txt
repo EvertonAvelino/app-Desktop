@@ -1,1 +1,0 @@
-insert into pessoas(Nome,CPF,Telefone,Email)values('Everton','00000000000','32984000000','everton@everton.com.br');

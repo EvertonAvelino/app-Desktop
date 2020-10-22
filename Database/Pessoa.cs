@@ -81,9 +81,8 @@ namespace Database
             }
         }
 
-
-            //medoto para listar/select
-            public DataTable Lista(string nome)
+        //medoto para listar/select
+        public DataTable Lista(string nome)
         {
 
             DataTable table = new DataTable();
@@ -107,8 +106,27 @@ namespace Database
             }
             return table;
         }
-     
-     }
-        
+        // metodo para excluir
+        public void Excluir(int id)
+        {
+            using (SqlConnection conn = new SqlConnection(connString))
+            {
+                string sql = "delete from pessoas where id = @id";
+                SqlCommand cmd = new SqlCommand(sql, conn);
+
+
+                cmd.Parameters.Add("@id", SqlDbType.Int);
+                cmd.Parameters["@id"].Value = id;
+
+                conn.Open();
+                cmd.ExecuteNonQuery();
+
+            }
+        }
+
+
+
     }
+        
+}
 

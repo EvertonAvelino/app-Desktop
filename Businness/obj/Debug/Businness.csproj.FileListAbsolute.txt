@@ -16,3 +16,12 @@ C:\Users\admin\Desktop\TSprogramador\TreinandoC#\TorneSe\Do zero ao appDesktop\B
 C:\Users\admin\Desktop\TSprogramador\TreinandoC#\TorneSe\Do zero ao appDesktop\Businness\obj\Debug\Businness.csproj.CopyComplete
 C:\Users\admin\Desktop\TSprogramador\TreinandoC#\TorneSe\Do zero ao appDesktop\Businness\obj\Debug\Businness.dll
 C:\Users\admin\Desktop\TSprogramador\TreinandoC#\TorneSe\Do zero ao appDesktop\Businness\obj\Debug\Businness.pdb
+C:\Users\admin\Desktop\TSprogramador\TreinandoC#\TorneSe\app-Desktop\Businness\bin\Debug\Businness.dll
+C:\Users\admin\Desktop\TSprogramador\TreinandoC#\TorneSe\app-Desktop\Businness\bin\Debug\Businness.pdb
+C:\Users\admin\Desktop\TSprogramador\TreinandoC#\TorneSe\app-Desktop\Businness\bin\Debug\Database.dll
+C:\Users\admin\Desktop\TSprogramador\TreinandoC#\TorneSe\app-Desktop\Businness\bin\Debug\Database.pdb
+C:\Users\admin\Desktop\TSprogramador\TreinandoC#\TorneSe\app-Desktop\Businness\obj\Debug\Businness.csprojAssemblyReference.cache
+C:\Users\admin\Desktop\TSprogramador\TreinandoC#\TorneSe\app-Desktop\Businness\obj\Debug\Businness.csproj.CoreCompileInputs.cache
+C:\Users\admin\Desktop\TSprogramador\TreinandoC#\TorneSe\app-Desktop\Businness\obj\Debug\Businness.csproj.CopyComplete
+C:\Users\admin\Desktop\TSprogramador\TreinandoC#\TorneSe\app-Desktop\Businness\obj\Debug\Businness.dll
+C:\Users\admin\Desktop\TSprogramador\TreinandoC#\TorneSe\app-Desktop\Businness\obj\Debug\Businness.pdb

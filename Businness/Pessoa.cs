@@ -61,8 +61,11 @@ namespace Businness
 
             return pessoas;
         }
-
-       
+        //metodo para excluir
+        public static void Excluir(int id)
+        {
+            new Database.Pessoa().Excluir(id);
+        }
     }
 
 }

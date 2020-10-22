@@ -28,13 +28,18 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.tbcCadastro = new System.Windows.Forms.TabControl();
             this.tbcClientes = new System.Windows.Forms.TabPage();
             this.btnBuscar = new System.Windows.Forms.Button();
             this.txtNomePesquisa = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.dtgListaClientes = new System.Windows.Forms.DataGridView();
+            this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
+            this.excluirToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.tabCadastro = new System.Windows.Forms.TabPage();
+            this.txtId = new System.Windows.Forms.TextBox();
+            this.lblId = new System.Windows.Forms.Label();
             this.btnGravar = new System.Windows.Forms.Button();
             this.txtEmail = new System.Windows.Forms.TextBox();
             this.lblEmail = new System.Windows.Forms.Label();
@@ -44,11 +49,10 @@
             this.txtNome = new System.Windows.Forms.TextBox();
             this.mskCPF = new System.Windows.Forms.MaskedTextBox();
             this.lblNome = new System.Windows.Forms.Label();
-            this.txtId = new System.Windows.Forms.TextBox();
-            this.lblId = new System.Windows.Forms.Label();
             this.tbcCadastro.SuspendLayout();
             this.tbcClientes.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dtgListaClientes)).BeginInit();
+            this.contextMenuStrip1.SuspendLayout();
             this.tabCadastro.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -104,13 +108,30 @@
             // 
             // dtgListaClientes
             // 
+            this.dtgListaClientes.AllowUserToAddRows = false;
+            this.dtgListaClientes.AllowUserToDeleteRows = false;
             this.dtgListaClientes.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dtgListaClientes.ContextMenuStrip = this.contextMenuStrip1;
             this.dtgListaClientes.Location = new System.Drawing.Point(0, 41);
             this.dtgListaClientes.Name = "dtgListaClientes";
+            this.dtgListaClientes.ReadOnly = true;
             this.dtgListaClientes.Size = new System.Drawing.Size(706, 381);
             this.dtgListaClientes.TabIndex = 0;
-            this.dtgListaClientes.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dtgListaClientes_CellContentClick);
             this.dtgListaClientes.CellDoubleClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dtgListaClientes_CellDoubleClick);
+            // 
+            // contextMenuStrip1
+            // 
+            this.contextMenuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.excluirToolStripMenuItem});
+            this.contextMenuStrip1.Name = "contextMenuStrip1";
+            this.contextMenuStrip1.Size = new System.Drawing.Size(109, 26);
+            // 
+            // excluirToolStripMenuItem
+            // 
+            this.excluirToolStripMenuItem.Name = "excluirToolStripMenuItem";
+            this.excluirToolStripMenuItem.Size = new System.Drawing.Size(108, 22);
+            this.excluirToolStripMenuItem.Text = "Excluir";
+            this.excluirToolStripMenuItem.Click += new System.EventHandler(this.excluirToolStripMenuItem_Click);
             // 
             // tabCadastro
             // 
@@ -133,6 +154,23 @@
             this.tabCadastro.Text = "Cadastro";
             this.tabCadastro.UseVisualStyleBackColor = true;
             this.tabCadastro.Click += new System.EventHandler(this.tabPage2_Click);
+            // 
+            // txtId
+            // 
+            this.txtId.Enabled = false;
+            this.txtId.Location = new System.Drawing.Point(76, 27);
+            this.txtId.Name = "txtId";
+            this.txtId.Size = new System.Drawing.Size(160, 20);
+            this.txtId.TabIndex = 17;
+            // 
+            // lblId
+            // 
+            this.lblId.AutoSize = true;
+            this.lblId.Location = new System.Drawing.Point(30, 27);
+            this.lblId.Name = "lblId";
+            this.lblId.Size = new System.Drawing.Size(18, 13);
+            this.lblId.TabIndex = 16;
+            this.lblId.Text = "ID";
             // 
             // btnGravar
             // 
@@ -211,23 +249,6 @@
             this.lblNome.TabIndex = 7;
             this.lblNome.Text = "Nome";
             // 
-            // txtId
-            // 
-            this.txtId.Enabled = false;
-            this.txtId.Location = new System.Drawing.Point(76, 27);
-            this.txtId.Name = "txtId";
-            this.txtId.Size = new System.Drawing.Size(160, 20);
-            this.txtId.TabIndex = 17;
-            // 
-            // lblId
-            // 
-            this.lblId.AutoSize = true;
-            this.lblId.Location = new System.Drawing.Point(30, 27);
-            this.lblId.Name = "lblId";
-            this.lblId.Size = new System.Drawing.Size(18, 13);
-            this.lblId.TabIndex = 16;
-            this.lblId.Text = "ID";
-            // 
             // frmCadastro
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -242,6 +263,7 @@
             this.tbcClientes.ResumeLayout(false);
             this.tbcClientes.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dtgListaClientes)).EndInit();
+            this.contextMenuStrip1.ResumeLayout(false);
             this.tabCadastro.ResumeLayout(false);
             this.tabCadastro.PerformLayout();
             this.ResumeLayout(false);
@@ -268,6 +290,8 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox txtId;
         private System.Windows.Forms.Label lblId;
+        private System.Windows.Forms.ContextMenuStrip contextMenuStrip1;
+        private System.Windows.Forms.ToolStripMenuItem excluirToolStripMenuItem;
     }
 }
 

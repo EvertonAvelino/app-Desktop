@@ -83,9 +83,23 @@ namespace ERP
             tbcCadastro.SelectedTab = tabCadastro;
         }
 
-        private void dtgListaClientes_CellContentClick(object sender, DataGridViewCellEventArgs e)
+      
+        // botao para excluir cadastro
+        private void excluirToolStripMenuItem_Click(object sender, EventArgs e)
         {
 
+            var pessoa = (Pessoa)dtgListaClientes.Rows[dtgListaClientes.SelectedCells[0].RowIndex].DataBoundItem;
+
+            var confirmaExcluir = MessageBox.Show("Deseja realmente excluir ID "+ pessoa.Id +":" + pessoa.Nome + "?", "Excluir", MessageBoxButtons.YesNo);
+
+            if(confirmaExcluir == DialogResult.Yes)
+            {
+                Pessoa.Excluir(pessoa.Id);
+                dtgListaClientes.DataSource = Pessoa.Lista(txtNomePesquisa.Text);
+            }
+            
         }
+
+       
     }
 }
