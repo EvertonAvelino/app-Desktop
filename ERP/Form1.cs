@@ -81,6 +81,11 @@ namespace ERP
             txtEmail.Text = pessoa.Email;
             mskTelefone.Text = pessoa.Telefone;
             tbcCadastro.SelectedTab = tabCadastro;
+
+
+            var enderecos = pessoa.Enderecos;
+
+
         }
 
       
@@ -100,6 +105,6 @@ namespace ERP
             
         }
 
-       
+      
     }
 }

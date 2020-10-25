@@ -117,6 +117,7 @@
             this.dtgListaClientes.ReadOnly = true;
             this.dtgListaClientes.Size = new System.Drawing.Size(706, 381);
             this.dtgListaClientes.TabIndex = 0;
+            this.dtgListaClientes.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dtgListaClientes_CellDoubleClick);
             this.dtgListaClientes.CellDoubleClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dtgListaClientes_CellDoubleClick);
             // 
             // contextMenuStrip1

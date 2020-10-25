@@ -10,11 +10,30 @@ namespace Businness
 {
     public class Pessoa
     {
+
+        private List<Endereco> _enderecos;
+
         public int Id { get; set; }
         public String Nome { get; set; }
         public String Cpf { get; set; }
         public String Telefone { get; set; }
         public String Email { get; set; }
+
+
+        //metodo para acessar endereço
+        public List<Endereco> Enderecos
+        {
+            get
+            {
+                if (_enderecos == null)
+                {
+                    _enderecos = Endereco.Lista(this.Id);
+                }
+               
+                    return _enderecos;
+            }
+                
+        }
 
 
         // metodo para cadastrar pessoas
