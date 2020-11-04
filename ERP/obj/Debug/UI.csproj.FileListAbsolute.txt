@@ -36,10 +36,12 @@ C:\Users\admin\Desktop\TSprogramador\TreinandoC#\TorneSe\app-Desktop\ERP\bin\Deb
 C:\Users\admin\Desktop\TSprogramador\TreinandoC#\TorneSe\app-Desktop\ERP\bin\Debug\Businness.pdb
 C:\Users\admin\Desktop\TSprogramador\TreinandoC#\TorneSe\app-Desktop\ERP\bin\Debug\Database.pdb
 C:\Users\admin\Desktop\TSprogramador\TreinandoC#\TorneSe\app-Desktop\ERP\obj\Debug\UI.csprojAssemblyReference.cache
-C:\Users\admin\Desktop\TSprogramador\TreinandoC#\TorneSe\app-Desktop\ERP\obj\Debug\ERP.frmCadastro.resources
 C:\Users\admin\Desktop\TSprogramador\TreinandoC#\TorneSe\app-Desktop\ERP\obj\Debug\ERP.Properties.Resources.resources
 C:\Users\admin\Desktop\TSprogramador\TreinandoC#\TorneSe\app-Desktop\ERP\obj\Debug\UI.csproj.GenerateResource.cache
 C:\Users\admin\Desktop\TSprogramador\TreinandoC#\TorneSe\app-Desktop\ERP\obj\Debug\UI.csproj.CoreCompileInputs.cache
 C:\Users\admin\Desktop\TSprogramador\TreinandoC#\TorneSe\app-Desktop\ERP\obj\Debug\UI.csproj.CopyComplete
 C:\Users\admin\Desktop\TSprogramador\TreinandoC#\TorneSe\app-Desktop\ERP\obj\Debug\ERP.exe
 C:\Users\admin\Desktop\TSprogramador\TreinandoC#\TorneSe\app-Desktop\ERP\obj\Debug\ERP.pdb
+C:\Users\admin\Desktop\TSprogramador\TreinandoC#\TorneSe\app-Desktop\ERP\obj\Debug\ERP.frmProdutos.resources
+C:\Users\admin\Desktop\TSprogramador\TreinandoC#\TorneSe\app-Desktop\ERP\obj\Debug\ERP.frmPessoa.resources
+C:\Users\admin\Desktop\TSprogramador\TreinandoC#\TorneSe\app-Desktop\ERP\obj\Debug\ERP.MDIPai.resources

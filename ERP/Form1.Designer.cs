@@ -1,6 +1,6 @@
 ﻿namespace ERP
 {
-    partial class frmCadastro
+    partial class frmPessoa
     {
         /// <summary>
         /// Variável de designer necessária.
@@ -49,6 +49,7 @@
             this.txtNome = new System.Windows.Forms.TextBox();
             this.mskCPF = new System.Windows.Forms.MaskedTextBox();
             this.lblNome = new System.Windows.Forms.Label();
+            this.btnProdutos = new System.Windows.Forms.Button();
             this.tbcCadastro.SuspendLayout();
             this.tbcClientes.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dtgListaClientes)).BeginInit();
@@ -60,10 +61,10 @@
             // 
             this.tbcCadastro.Controls.Add(this.tbcClientes);
             this.tbcCadastro.Controls.Add(this.tabCadastro);
-            this.tbcCadastro.Location = new System.Drawing.Point(12, 12);
+            this.tbcCadastro.Location = new System.Drawing.Point(12, 31);
             this.tbcCadastro.Name = "tbcCadastro";
             this.tbcCadastro.SelectedIndex = 0;
-            this.tbcCadastro.Size = new System.Drawing.Size(714, 448);
+            this.tbcCadastro.Size = new System.Drawing.Size(710, 429);
             this.tbcCadastro.TabIndex = 7;
             // 
             // tbcClientes
@@ -75,7 +76,7 @@
             this.tbcClientes.Location = new System.Drawing.Point(4, 22);
             this.tbcClientes.Name = "tbcClientes";
             this.tbcClientes.Padding = new System.Windows.Forms.Padding(3);
-            this.tbcClientes.Size = new System.Drawing.Size(706, 422);
+            this.tbcClientes.Size = new System.Drawing.Size(702, 403);
             this.tbcClientes.TabIndex = 0;
             this.tbcClientes.Text = "Lista de Clientes";
             this.tbcClientes.UseVisualStyleBackColor = true;
@@ -150,11 +151,10 @@
             this.tabCadastro.Location = new System.Drawing.Point(4, 22);
             this.tabCadastro.Name = "tabCadastro";
             this.tabCadastro.Padding = new System.Windows.Forms.Padding(3);
-            this.tabCadastro.Size = new System.Drawing.Size(706, 422);
+            this.tabCadastro.Size = new System.Drawing.Size(702, 403);
             this.tabCadastro.TabIndex = 1;
             this.tabCadastro.Text = "Cadastro";
             this.tabCadastro.UseVisualStyleBackColor = true;
-            this.tabCadastro.Click += new System.EventHandler(this.tabPage2_Click);
             // 
             // txtId
             // 
@@ -250,15 +250,26 @@
             this.lblNome.TabIndex = 7;
             this.lblNome.Text = "Nome";
             // 
-            // frmCadastro
+            // btnProdutos
+            // 
+            this.btnProdutos.Location = new System.Drawing.Point(645, 2);
+            this.btnProdutos.Name = "btnProdutos";
+            this.btnProdutos.Size = new System.Drawing.Size(77, 23);
+            this.btnProdutos.TabIndex = 8;
+            this.btnProdutos.Text = "Produtos";
+            this.btnProdutos.UseVisualStyleBackColor = true;
+            this.btnProdutos.Click += new System.EventHandler(this.btnProdutos_Click);
+            // 
+            // frmPessoa
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(738, 472);
+            this.Controls.Add(this.btnProdutos);
             this.Controls.Add(this.tbcCadastro);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
-            this.Name = "frmCadastro";
-            this.Text = "Cadastro De Clientes";
+            this.Name = "frmPessoa";
+            this.Text = "Clientes";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.tbcCadastro.ResumeLayout(false);
             this.tbcClientes.ResumeLayout(false);
@@ -293,6 +304,7 @@
         private System.Windows.Forms.Label lblId;
         private System.Windows.Forms.ContextMenuStrip contextMenuStrip1;
         private System.Windows.Forms.ToolStripMenuItem excluirToolStripMenuItem;
+        private System.Windows.Forms.Button btnProdutos;
     }
 }
 

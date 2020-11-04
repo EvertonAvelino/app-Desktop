@@ -11,16 +11,21 @@ using System.Windows.Forms;
 
 namespace ERP
 {
-    public partial class frmCadastro : Form
+    //foi definida a classe como pessoa mas ela se refere a clientes frmPessoas = frmClientes
+    public partial class frmPessoa : Form
     {
-        public frmCadastro()
+        public frmPessoa()
         {
             InitializeComponent();
         }
+
+        public static frmProdutos frmProds;
+
         //chama o formulario 1 e atualiza
         private void Form1_Load(object sender, EventArgs e)
         {
-            dtgListaClientes.DataSource = Pessoa.Lista();
+            
+            // dtgListaClientes.DataSource = Pessoa.Lista();
         }
        
         private void mskTelefone_MaskInputRejected(object sender, MaskInputRejectedEventArgs e)
@@ -28,11 +33,7 @@ namespace ERP
 
         }
         
-        private void tabPage2_Click(object sender, EventArgs e)
-        {
-
-        }
-        
+      
         private void btnGravar_Click(object sender, EventArgs e)
         {
             // caso o id seja nullo o txtId =0;
@@ -105,6 +106,12 @@ namespace ERP
             
         }
 
-      
+        private void btnProdutos_Click(object sender, EventArgs e)
+        {
+            if (frmPessoa.frmProds == null) frmPessoa.frmProds = new frmProdutos();
+            frmPessoa.frmProds.Show();
+        }
+
+       
     }
 }
